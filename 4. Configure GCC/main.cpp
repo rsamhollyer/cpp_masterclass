@@ -1,6 +1,6 @@
 #include <iostream>
 
-constexpr int get_value() { return 3; }
+consteval int get_value() { return 3; }
 
 int main() {
     constexpr int value = get_value();
